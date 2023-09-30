@@ -1,5 +1,5 @@
 ﻿//One Dimensional Arrays in C#
-Console.WriteLine("Int Data Types One Dimensional Array");
+Console.WriteLine(" "+"Int Data Types One Dimensional Array");
 int[] numbers = new int[5];
 
 numbers[0] = 5;
@@ -11,7 +11,7 @@ numbers[4] = 9;
 for(int i = 0; i < numbers.Length; i++)
 
 {
-    Console.WriteLine(numbers[i]);
+    Console.WriteLine(" "+numbers[i]);
 
 }
 
@@ -22,38 +22,38 @@ books[2] = "chemistry";
 books[3] = "zoology";
 books[4] = "C#";
 
-Console.WriteLine("For Loop Apply in One Dimensional Array::");
+Console.WriteLine(" "+"For Loop Apply in One Dimensional Array::");
 
 for(int j = 1; j < books.Length; j++)
 {
-    Console.WriteLine(books[j]);
+    Console.WriteLine(" "+books[j]);
 
 }
 
-Console.WriteLine("While Loop Apply in One Dimensional Array::");
+Console.WriteLine(" "+"While Loop Apply in One Dimensional Array::");
 
 int k=0;
 while (k < books.Length)
 {
-    Console.WriteLine(books[k]);
+    Console.WriteLine(" "+books[k]);
     k++; 
 }
-Console.WriteLine("Do-While Loop Array:::");
+Console.WriteLine(" "+"Do-While Loop Array:::");
 
 int doWhileLoop = 0;
 do
 {
-    Console.WriteLine(books[doWhileLoop]);
+    Console.WriteLine(" "+books[doWhileLoop]);
     doWhileLoop++;
 }
 while (doWhileLoop < books.Length);
 
-Console.WriteLine("For Each Loop::");
+Console.WriteLine(" "+"For Each Loop::");
 
 
 foreach (int i in numbers)
 {
 
-    Console.WriteLine(+ i);
+    Console.WriteLine(" "+ i);
 
 }
